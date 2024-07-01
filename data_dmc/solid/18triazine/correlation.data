@@ -1,0 +1,210 @@
+ START HEADER
+ water on graphite
+ END HEADER
+ 
+ START VERSION
+   1
+ END VERSION
+ 
+ START JASTROW
+ Title
+ jastrow for water on graphite
+ Truncation order C
+   3
+ START U TERM
+ Number of sets
+   1
+ START SET 1
+ Spherical harmonic l,m
+   0 0
+ Expansion order N_u
+   8
+ Spin dep (0->uu=dd=ud; 1->uu=dd/=ud; 2->uu/=dd/=ud)
+   1
+ Cutoff (a.u.)     ;  Optimizable (0=NO; 1=YES)
+   8.70484816905770                1
+ Parameter values  ;  Optimizable (0=NO; 1=YES)
+  6.173194081402702E-004           1       ! alpha_0,1
+  5.818730817447448E-005           1       ! alpha_2,1
+ -2.934392098412160E-005           1       ! alpha_3,1
+  1.276045452457551E-005           1       ! alpha_4,1
+ -3.538082768128861E-006           1       ! alpha_5,1
+  6.003016257371734E-007           1       ! alpha_6,1
+ -5.673053954561754E-008           1       ! alpha_7,1
+  2.309998329684679E-009           1       ! alpha_8,1
+  9.033127277963438E-004           1       ! alpha_0,2
+  2.303875697033108E-004           1       ! alpha_2,2
+ -1.056823639092468E-004           1       ! alpha_3,2
+  3.727181676195758E-005           1       ! alpha_4,2
+ -8.912346089983993E-006           1       ! alpha_5,2
+  1.339633811394328E-006           1       ! alpha_6,2
+ -1.131933405807642E-007           1       ! alpha_7,2
+  4.110545111894187E-009           1       ! alpha_8,2
+ END SET 1
+ END U TERM
+ START CHI TERM
+ Number of sets ; labelling (1->atom in s. cell; 2->atom in p. cell; 3->species)
+   3 3
+ START SET 1
+ Spherical harmonic l,m
+   0 0
+ Number of species in set
+   1
+ Label of the species in this set
+    1
+ Impose electron-nucleus cusp (0=NO; 1=YES)
+   0
+ Expansion order N_chi
+   8
+ Spin dep (0->u=d; 1->u/=d)
+   0
+ Cutoff (a.u.)     ;  Optimizable (0=NO; 1=YES)
+  0.542388183202043                1
+ Parameter values  ;  Optimizable (0=NO; 1=YES)
+  3.181519114387885E-002           1       ! beta_0,1,1
+   1.12080429709622                1       ! beta_2,1,1
+  -23.5241233873326                1       ! beta_3,1,1
+   323.926836740026                1       ! beta_4,1,1
+  -2470.05785015273                1       ! beta_5,1,1
+   9936.66356513480                1       ! beta_6,1,1
+  -19041.8301249761                1       ! beta_7,1,1
+   13614.3474913514                1       ! beta_8,1,1
+ END SET 1
+ START SET 2
+ Spherical harmonic l,m
+   0 0
+ Number of species in set
+   1
+ Label of the species in this set
+    2
+ Impose electron-nucleus cusp (0=NO; 1=YES)
+   0
+ Expansion order N_chi
+   8
+ Spin dep (0->u=d; 1->u/=d)
+   0
+ Cutoff (a.u.)     ;  Optimizable (0=NO; 1=YES)
+   6.64576510759616                1
+ Parameter values  ;  Optimizable (0=NO; 1=YES)
+ -2.693062501502783E-003           1       ! beta_0,1,2
+  8.036615632319688E-004           1       ! beta_2,1,2
+ -1.157053969939401E-003           1       ! beta_3,1,2
+  1.078911098148375E-003           1       ! beta_4,1,2
+ -5.130420354907586E-004           1       ! beta_5,1,2
+  1.271226044827454E-004           1       ! beta_6,1,2
+ -1.576802586053923E-005           1       ! beta_7,1,2
+  7.727096539854236E-007           1       ! beta_8,1,2
+ END SET 2
+ START SET 3
+ Spherical harmonic l,m
+   0 0
+ Number of species in set
+   1
+ Label of the species in this set
+    3
+ Impose electron-nucleus cusp (0=NO; 1=YES)
+   0
+ Expansion order N_chi
+   8
+ Spin dep (0->u=d; 1->u/=d)
+   0
+ Cutoff (a.u.)     ;  Optimizable (0=NO; 1=YES)
+   5.26963565707296                1
+ Parameter values  ;  Optimizable (0=NO; 1=YES)
+ -3.612350670587964E-003           1       ! beta_0,1,3
+  1.292154084199854E-003           1       ! beta_2,1,3
+ -1.414407741421098E-003           1       ! beta_3,1,3
+  1.152439700224989E-003           1       ! beta_4,1,3
+ -4.014404855889274E-004           1       ! beta_5,1,3
+  4.557389864424883E-005           1       ! beta_6,1,3
+  3.118363357350045E-006           1       ! beta_7,1,3
+ -6.876712391279544E-007           1       ! beta_8,1,3
+ END SET 3
+ END CHI TERM
+ START F TERM
+ Number of sets ; labelling (1->atom in s. cell; 2->atom in p. cell; 3->species)
+   3 3
+ START SET 1
+ Number of species in set
+   1
+ Label of the species in this set
+    1
+ Prevent duplication of u term (0=NO; 1=YES)
+   0
+ Prevent duplication of chi term (0=NO; 1=YES)
+   0
+ Electron-nucleus expansion order N_f_eN
+   2
+ Electron-electron expansion order N_f_ee
+   2
+ Spin dep (0->uu=dd=ud; 1->uu=dd/=ud; 2->uu/=dd/=ud)
+   0
+ Cutoff (a.u.)     ;  Optimizable (0=NO; 1=YES)
+   4.26978353048370                1
+ Parameter values  ;  Optimizable (0=NO; 1=YES)
+ -9.450186250521595E-006           1       ! gamma_1,1,0,1,1
+ -1.116358400529163E-005           1       ! gamma_2,1,0,1,1
+ -3.004981078798255E-006           1       ! gamma_2,2,0,1,1
+  2.393196084942774E-006           1       ! gamma_0,0,2,1,1
+  4.061240853446353E-006           1       ! gamma_1,0,2,1,1
+ -7.080975862173934E-006           1       ! gamma_1,1,2,1,1
+  5.935684368378063E-007           1       ! gamma_2,1,2,1,1
+  1.392840657215881E-007           1       ! gamma_2,2,2,1,1
+ END SET 1
+ START SET 2
+ Number of species in set
+   1
+ Label of the species in this set
+    2
+ Prevent duplication of u term (0=NO; 1=YES)
+   0
+ Prevent duplication of chi term (0=NO; 1=YES)
+   0
+ Electron-nucleus expansion order N_f_eN
+   2
+ Electron-electron expansion order N_f_ee
+   2
+ Spin dep (0->uu=dd=ud; 1->uu=dd/=ud; 2->uu/=dd/=ud)
+   0
+ Cutoff (a.u.)     ;  Optimizable (0=NO; 1=YES)
+   4.35240938736203                1
+ Parameter values  ;  Optimizable (0=NO; 1=YES)
+ -3.585746470585240E-006           1       ! gamma_1,1,0,1,2
+ -7.166583468274836E-007           1       ! gamma_2,1,0,1,2
+ -9.609461068174399E-007           1       ! gamma_2,2,0,1,2
+ -7.215201699364193E-006           1       ! gamma_0,0,2,1,2
+  1.361504747846337E-006           1       ! gamma_1,0,2,1,2
+ -8.954746797112117E-007           1       ! gamma_1,1,2,1,2
+  1.735229454692091E-008           1       ! gamma_2,1,2,1,2
+  5.814383554267789E-008           1       ! gamma_2,2,2,1,2
+ END SET 2
+ START SET 3
+ Number of species in set
+   1
+ Label of the species in this set
+    3
+ Prevent duplication of u term (0=NO; 1=YES)
+   0
+ Prevent duplication of chi term (0=NO; 1=YES)
+   0
+ Electron-nucleus expansion order N_f_eN
+   2
+ Electron-electron expansion order N_f_ee
+   2
+ Spin dep (0->uu=dd=ud; 1->uu=dd/=ud; 2->uu/=dd/=ud)
+   0
+ Cutoff (a.u.)     ;  Optimizable (0=NO; 1=YES)
+  6.291262506448762E-003           1
+ Parameter values  ;  Optimizable (0=NO; 1=YES)
+  3.522946068443927E-003           1       ! gamma_1,1,0,1,3
+  2.750192345970050E-004           1       ! gamma_2,1,0,1,3
+ -2.472538736351962E-005           1       ! gamma_2,2,0,1,3
+ -3.645312072391438E-003           1       ! gamma_0,0,2,1,3
+  7.848723413331465E-004           1       ! gamma_1,0,2,1,3
+ -1.870179424704205E-005           1       ! gamma_1,1,2,1,3
+ -1.431551467471310E-006           1       ! gamma_2,1,2,1,3
+ -2.292276386657771E-006           1       ! gamma_2,2,2,1,3
+ END SET 3
+ END F TERM
+ END JASTROW
+ 
