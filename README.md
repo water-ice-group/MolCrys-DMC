@@ -2,7 +2,7 @@
 
 This repository contains supplementary data supporting the findings of the paper:
 
-Della Pia F, Zen A, Alf\e' D, Michaelides A, How accurate are experiments and simulations for the lattice energy of molecular crystals?
+Della Pia F, Zen A, Alfè D, Michaelides A, How accurate are experiments and simulations for the lattice energy of molecular crystals?
 
 
 ## Contents
